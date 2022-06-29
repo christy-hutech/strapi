@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tweets",
+  "info": {
+    "singularName": "tweet",
+    "pluralName": "tweets",
+    "displayName": "Tweet"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

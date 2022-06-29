@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.hero"
+    },
+    "hero2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.hero2"
+    }
+  }
+}

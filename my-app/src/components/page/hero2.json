@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_hero2s",
+  "info": {
+    "displayName": "hero2",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "heading1": {
+      "type": "string"
+    },
+    "discreption": {
+      "type": "richtext"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "buttons": {
+      "type": "string"
+    }
+  }
+}
